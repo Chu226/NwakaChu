@@ -7,20 +7,29 @@ string str3 = "THIS is a STRING";
 string[] strs = {"one", "two", "three", "four"};
 
 // TODO: Length of a string 
-
+Console.WriteLine(str1.Length);
 
 // TODO: Access individual characters
-
+Console.WriteLine(str1[14]);
 
 // TODO: Iterate over a string like any other sequence of values
-
+foreach (char ch in str1){
+    Console.Write(ch);
+    if (ch == 'f'){
+      Console.WriteLine();
+    }
+}
 
 // TODO: String Concatenation         
 string outstr;
-
+outstr = String.Concat(str1, str2);
+Console.WriteLine(outstr);
 
 // TODO: Joining strings together with Join
-
+outstr = String.Join('-', strs);
+Console.WriteLine(outstr);
+outstr = String.Join("---", strs);
+Console.WriteLine(outstr);
 
 // TODO: String Comparison
 

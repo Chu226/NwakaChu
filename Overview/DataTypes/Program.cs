@@ -13,9 +13,16 @@ Console.WriteLine($"{a}, {b}, {tf}, {c}, {f}, {d}");
 
 // TODO: implicit type conversion
 
+Console.WriteLine($"{c + a}");
+Console.WriteLine($"{(char)(c + a)}");
+Console.WriteLine($"{f + a}");
+Console.WriteLine($"{f + c}");
 
 // TODO: Create an instance of a struct (which is a value type)
 
+s s1;
+s1.a = 5;
+s1.b = false;
 
 // Perform an operation on a struct
 void StructOp(s theStruct) {
@@ -25,26 +32,25 @@ void StructOp(s theStruct) {
     Console.WriteLine($"{theStruct.a}, {theStruct.b}");
 }
 
+Console.WriteLine("Structs are passed by copy, since they are valuetypes:");
+Console.WriteLine($"{s1.a}, {s1.b}");
+StructOp(s1);
+Console.WriteLine($"{s1.a}, {s1.b}");
+
 // Console.WriteLine("Structs are passed by copy, since they are value types:");
+MyClass cl = new MyClass{a = 5, b = false};
+
 // Console.WriteLine($"{s1.a}, {s1.b}");
-// StructOp(s1);
-// Console.WriteLine($"{s1.a}, {s1.b}");
-
-// TODO: Create an object instance of a class (which is a reference type)
-
-
-// Perform an operation on the class
 void ClassOp(MyClass theClass) {
-    // Modify some of the properties of the class inside the function
     theClass.a = 10;
-    theClass.b = true;
-    Console.WriteLine($"{theClass.a}, {theClass.b}");
+theClass.b = true;
+Console.WriteLine($"{theClass.a}, {theClass.b}");
 }
 
-// Console.WriteLine("Objects are passed by reference, since they are reference types:");
-// Console.WriteLine($"{cl.a}, {cl.b}");
-// ClassOp(cl);
-// Console.WriteLine($"{cl.a}, {cl.b}");
+Console.WriteLine("Objects are passed by reference, since they are reference types:");
+Console.WriteLine($"{cl.a}, {cl.b}");
+ClassOp(cl);
+Console.WriteLine($"{cl.a}, {cl.b}");
 
 // These are declared at the bottom of the file because C# requires
 // top-level statements to come before type declarations

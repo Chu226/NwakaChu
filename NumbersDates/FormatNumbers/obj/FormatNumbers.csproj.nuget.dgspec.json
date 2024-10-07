@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj": {}
+    "C:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj": {
+    "C:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj",
+        "projectUniqueName": "C:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj",
         "projectName": "FormatNumbers",
-        "projectPath": "c:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj",
+        "projectPath": "C:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\FormatNumbers.csproj",
         "packagesPath": "C:\\Users\\Nwakama Chu Appolus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\obj\\",
+        "outputPath": "C:\\Users\\Nwakama Chu Appolus\\OneDrive\\Documents\\Uni\\Baze Uni\\Application programming using java, C#\\Start\\Start\\NumbersDates\\FormatNumbers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nwakama Chu Appolus\\AppData\\Roaming\\NuGet\\NuGet.Config"

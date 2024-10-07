@@ -20,3 +20,4 @@ GC.Collect();
 // Retrieve and print the updated total memory amount
 Console.WriteLine($"Allocated memory is: {GC.GetTotalMemory(false)}");
 Console.ReadLine();
+ 
