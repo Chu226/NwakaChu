@@ -1,4 +1,4 @@
-﻿// Application Programming .NET Programming with C# by Abdullahi Tijjani
+// Application Programming .NET Programming with C# by Abdullahi Tijjani
 // Example file for searching string content
 
 string teststr = "The quick brown Fox jumps over the lazy Dog";
@@ -27,3 +27,7 @@ string str3 = String.Empty;
 Console.WriteLine($"{String.IsNullOrEmpty(str1)}");
 Console.WriteLine($"{String.IsNullOrEmpty(str3)}");
 Console.WriteLine($"{String.IsNullOrWhiteSpace(str2)}");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7865b6506987248fde31394d985ebbf156635adf

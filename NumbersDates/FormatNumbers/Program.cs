@@ -1,4 +1,4 @@
-﻿// Application Programming .NET Programming with C# by Abdullahi Tijjani
+// Application Programming .NET Programming with C# by Abdullahi Tijjani
 // Example file for formatting numerical data in .NET
 
 int[] quarters = {1,2,3,4};
@@ -25,3 +25,7 @@ Console.WriteLine($"{quarters[0], 12} {quarters[1], 12} {quarters[2], 12} {quart
 Console.WriteLine($"{sales[0], 12:C0} {sales[1], 12:C0} {sales[2], 12:C0} {sales[3], 12: C0}");
 Console.WriteLine("International Sales:");
 Console.WriteLine($"{intlMixPct[0]} {intlMixPct[1]} {intlMixPct[2]} {intlMixPct[3]}");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7865b6506987248fde31394d985ebbf156635adf
