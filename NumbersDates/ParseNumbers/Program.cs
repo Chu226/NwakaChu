@@ -15,6 +15,7 @@ foreach (string str in NumStrs) {
     Console.WriteLine($"Parsed number is {testfloat}");
     testint = int.Parse(str);
     Console.WriteLine($"Parsed number is {testint}");
+    
   }
   catch (FormatException e) {
       Console.WriteLine($"Could not parse '{str}' : {e.Message}");      
